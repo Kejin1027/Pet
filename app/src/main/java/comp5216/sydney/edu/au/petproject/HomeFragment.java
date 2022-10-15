@@ -96,8 +96,7 @@ public class HomeFragment extends Fragment {
 //        arrayList.add("6");
 //        arrayList.add("7");
 //        arrayList.add("8");
-//        arrayList.add("9");
-//        arrayList.add("10");
+
         adapter = new HomeListAdapter(this, arrayList, new HomeListAdapter.ItemClickListener() {
             @Override
             public void onItemClick(Post post) {
